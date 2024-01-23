@@ -1,0 +1,287 @@
+<html>
+<head>
+<title>Regform</title>
+<script src="regformjs.js"></script>
+</head>
+<body style="background-color:rgb(143, 218, 253);">
+<form>   
+<h1>STUDENT REGISTRATION<h1>
+<h3 style="background-color:rgb(244, 247, 103);">Personal Details<h3>
+<hr>
+
+ <table>
+ <tr> 
+ <td><label>First Name :</label></td>
+ <td><input type="text" required/ placeholder="Enter Your Name"></td>
+ <td><label>Last Name :</label></td>
+ <td><input type="text" required/ placeholder="Enter Your Name"></td>
+ </tr>
+ <tr>
+ <td> Gender :</td>
+ <td><input type="radio" name="gender">male
+ <input type="radio" name="gender">female</td>
+ </tr>
+ <tr>
+ <td><label>Age :</label>
+ <td><input type="number"required/>
+ <tr>
+  <td><label>Father's Name :</label></td>
+  <td><input type="text" placeholder="Enter Father's Name"/required></td>
+  <td><label>Mother's Name :</label></td>
+  <td><input type="text" placeholder="Enter Mother's Name"/required></td>
+ </tr>
+ <tr>
+ <td><label>Date of Birth :</label></td>
+ <td><input type="date" min="2005-01-01" max="2023-12-31"></td>
+ </tr>
+ <tr>
+ <td><label>Department</label>
+ <td><select>
+ <option>CSE</option>
+ <option>IT</option>
+ <option>ECE</option>
+ <option>CCE</option>
+ <option>AIDS</option>
+ </select></td>
+ <tr>
+ <td><label>Email<label>
+ <td><input type="email" placeholder="Enter Your Email"/required></td>
+ </tr>
+ <tr>
+ <td><label>Mobile No :<label>
+ <td><input type="num"/required></td>
+ </tr>
+ </table>
+ <br>
+ <h3 style="background-color:rgb(244, 247, 103);">Present Address</h3>
+ <hr>
+ <table>
+ <tr>
+ <td><label>State :</label></td>
+ <td><select>
+    <option>Assam</option>
+    <option>Andhra pradesh</option>
+    <option>Delhi</option>
+    <option>Goa</option>
+    <option>Gujarat</option>
+    <option>Haryana</option>
+    <option>Jharkand</option>
+    <option>Karnataka</option>
+    <option>Kerala</option>
+    <option>Madhya pradesh</option>
+    <option>Odisha</option>
+    <option>Rajastan</option>
+    <option>Tamil nadu</option>
+    <option>Telangana</option>
+ </select></td>
+ 
+ <td><label>City :</label></td>
+ <td><select>
+ <option>Chennai</option>
+ <option>Coimbatore</option>
+ <option>Mumbai</option>
+ <option>Bangalore</option>
+ <option>New delhi</option>
+ <option>Hyderabad</option>
+ <option>kochi</option>
+ <option>Ahmadabad</option>
+ </select></td>
+ </tr>
+ <tr>
+ <td><label >Address :</td>
+ <td><input type="text" placeholder="Enter Your Address"/required></td>
+ </tr>
+ <tr>
+ <td>Pincode :</td>
+ <td><input type="number"/required></td>
+ </tr>
+ <tr>
+ <td><label>Contact No :<label>
+ <td><input type="num"></td>
+ </tr>
+ </table>
+
+  <br>
+ <h3 style="background-color:rgb(244, 247, 103);">Permanent Address</h3>
+ <hr>
+ <table>
+ <tr>
+ <td><label>Same as present</label></td>
+ <td><input type="checkbox"></td>
+ </tr>
+ <tr>
+ <td><label>State :</label></td>
+ <td><select>
+ <option>Assam</option>
+ <option>Andhra pradesh</option>
+ <option>Delhi</option>
+ <option>Goa</option>
+ <option>Gujarat</option>
+ <option>Haryana</option>
+ <option>Jharkand</option>
+ <option>Karnataka</option>
+ <option>Kerala</option>
+ <option>Madhya pradesh</option>
+ <option>Odisha</option>
+ <option>Rajastan</option>
+ <option>Tamil nadu</option>
+ <option>Telangana</option>
+ </select></td>
+ 
+ <td><label>City :</label></td>
+ <td><select>
+    <option>Chennai</option>
+    <option>Coimbatore</option>
+    <option>Mumbai</option>
+    <option>Bangalore</option>
+    <option>New delhi</option>
+    <option>Hyderabad</option>
+    <option>kochi</option>
+    <option>Ahmadabad</option>
+ </select></td>
+ </tr>
+ <tr>
+ <td><label >Address :</td>
+ <td><input type="text" placeholder="Enter Your Address"></td>
+ </tr>
+ <tr>
+ <td>Pincode :</td>
+ <td><input type="number"></td>
+ </tr>
+ <tr>
+ <td><label>Contact No :<label>
+ <td><input type="num"></td>
+ </tr>
+ </table>
+ <br>
+ <h3 style="background-color:rgb(244, 247, 103);">Upload Files</h3>
+ <hr>
+ <table>
+   <tr>
+      <td><label>Aadhaar card :</label></td>
+      <td><input type="file"></td>
+   </tr>
+   <tr>
+      <td><label>Passport size photo :</label></td>
+      <td><input type="file"></td>
+   </tr>
+   <tr>
+      <td><label>12th Certificate :</label></td>
+      <td><input type="file"></td>
+   </tr>
+   <tr>
+      <td><label>10th Certificate :</label></td>
+      <td><input type="file"></td>
+   </tr>
+ </table>
+ <br>
+ <h3 style="background-color:rgb(244, 247, 103);">Eductional Details</h3>
+ <hr>
+ <h3>10th Qualification</h3>
+ <br>
+ <table>
+   <tr>
+      <td>School Name :</td>
+      <td><input type="text" placeholder="Enter The School Name"></td>
+   </tr>
+   <tr>
+      <td>Year of Passing :</td>
+      <td><select>
+         <option>2023</option>
+         <option>2022</option>
+         <option>2021</option>
+         <option>2020</option>
+         <option>2019</option>
+         <option>2018</option>
+         <option>2017</option>
+         <option>2016</option>
+         <option>2015</option>
+         <option>2014</option>
+         <option>2013</option>
+         <option>2012</option>
+         <option>2011</option>
+         <option>2010</option>
+         <option>2009</option>
+         <option>2008</option>
+         <option>2007</option>
+         <option>2006</option>
+         <option>2005</option>
+         <option>2004</option>
+         <option>2003</option>
+         <option>2002</option>
+         <option>2001</option>
+         <option>2000</option>
+      </select></td>
+   </tr>
+   <tr>
+      <td>School address</td>
+      <td><input type="text"></td>
+   </tr>
+   <tr>
+      <td>Total Marks  :</td>
+      <td><input type="number"></td>
+      <td> Marks scored  :</td>
+      <td><input type="number"></td>
+      <td>Percentage  :</td>
+      <td><input type="number"></td>
+   </tr>
+ </table>
+ <br>
+ <h3>12th Qualification</h3>
+ <br>
+ <table>
+   <tr>
+      <td>School Name :</td>
+      <td><input type="text" placeholder="Enter The School Name"></td>
+   </tr>
+   <tr>
+      <td>Year of Passing :</td>
+      <td><select>
+         <option>2023</option>
+         <option>2022</option>
+         <option>2021</option>
+         <option>2020</option>
+         <option>2019</option>
+         <option>2018</option>
+         <option>2017</option>
+         <option>2016</option>
+         <option>2015</option>
+         <option>2014</option>
+         <option>2013</option>
+         <option>2012</option>
+         <option>2011</option>
+         <option>2010</option>
+         <option>2009</option>
+         <option>2008</option>
+         <option>2007</option>
+         <option>2006</option>
+         <option>2005</option>
+         <option>2004</option>
+         <option>2003</option>
+         <option>2002</option>
+         <option>2001</option>
+         <option>2000</option>
+      </select></td>
+   </tr>
+   <tr>
+      <td>School address</td>
+      <td><input type="text"></td>
+   </tr>
+   <tr>
+      <td>Total Marks  :</td>
+      <td><input type="number"></td>
+      <td> Marks scored  :</td>
+      <td><input type="number"></td>
+      <td>Percentage  :</td>
+      <td><input type="number"></td>
+   </tr>
+   <tr>
+      <td></td>
+      <td><input type="submit" onclick="redirect()" ></td>
+      <td><input type="reset"></td>
+   </tr>
+ </table>
+</form>
+
+</body>
+</html>
